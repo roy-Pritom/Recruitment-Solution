@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Recruitment Solution | Candidate Search</title>
+  <link rel="stylesheet" type="text/css" href="../style/search.css">
+</head>
+<body>
+  <header class="myHeader">
+    <h1>Candidate Search</h1>
+  </header>
+
+<main>
+    <section>
+        <h2>Search Filters</h2>
+     <form action="" onsubmit="searchCandidates(event)">
+      <div class="from-grp">
+        <label for="location">Location:</label>
+        <select id="location">
+            <option value="New York">New York</option>
+            <option value="San Francisco">San Francisco</option>
+            <option value="Dhaka">Dhaka</option>
+            <option value="Haldia">Haldia</option>
+            <option value="Kolkata">Kolkata</option>
+          
+          </select>
+      </div>
+        <!-- <input type="text" id="location" placeholder="Enter location" required > -->
+
+         
+        <label for="job-role">Job Role:</label>
+        <select id="job-role">
+            <option value="Software Engineer">Software Engineer</option>
+            <option value="UX Designer">UX Designer</option>
+            <option value="Web Developer">Web Developer</option>
+            <option value="Frontend Developer">Frontend Developer</option>
+            <option value="Backend Developer">Backend Developer</option>
+          
+          </select>
+       
+        <button type="submit">Search</button>
+     </form>
+      </section>
+    
+      <section id="candidate-list">
+        <h2>Candidate List</h2>
+        <ul id="candidates"></ul>
+      </section>
+</main>
+
+  <script src="../js/script.js"></script>
+</body>
+</html>
+
+

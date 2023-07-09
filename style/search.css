@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+
+    padding: 0;
+
+  }
+  main{
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+.myHeader {
+    background-color: #f2f2f2;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  h1 {
+    color: #333;
+  }
+  
+  section {
+    padding: 20px;
+  }
+  select {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+  
+  input,
+  button {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+  }
+  
+  button {
+    background-color:#FF900E;
+    color: #fff;
+    border: none;
+    margin-top: 20px;
+    width: 140px;
+    border-radius:5px;
+  }
+  
+  #candidate-list {
+    border-top: 1px solid #ccc;
+  }
+  
+  #candidates {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  #candidates li {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+  }
+  
+  #evaluation-section {
+    border-top: 1px solid #ccc;
+    margin-top: 20px;
+  }
+  
+  #evaluation-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  #evaluation-list li {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+  }
+  .from-grp{
+    margin-bottom: 15px;
+  }
